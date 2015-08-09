@@ -1,0 +1,14 @@
+{
+  "name": "sb-admin-rtl",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ahb360/sb-admin-2-rtl",
+  "authors": [
+    "Amir Basiri <amir.basiri@gmail.com>"
+  ],
+  "description": "sb admin 2 rtl styles",
+  "keywords": [
+    "sb-admin-2",
+    "rtl"
+  ],
+  "license": "MIT"
+}
