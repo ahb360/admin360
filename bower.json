@@ -10,5 +10,9 @@
     "sb-admin-2",
     "rtl"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "startbootstrap-sb-admin-2": "~1.0.7",
+    "bootstrap-rtl": "~3.3.2"
+  }
 }
