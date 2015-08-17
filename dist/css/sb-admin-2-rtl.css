@@ -19,7 +19,23 @@ body {
     margin: 0 250px 0 0;
     border-right: 1px solid #e7e7e7;
     border-left: 0;
+    padding: 0 10px;
   }
+}
+.navbar {
+  background-color: #605CA8;
+}
+.navbar a,
+.navbar .navbar-brand {
+  color: #fff;
+}
+.navbar .active a,
+.navbar .active,
+.navbar a:hover {
+  background-color: #605CA8 !important;
+}
+.navbar .sidebar {
+  background-color: #545096;
 }
 .navbar-top-links {
   margin-left: 0;
