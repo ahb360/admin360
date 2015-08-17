@@ -10,7 +10,17 @@
     "sb-admin-2",
     "rtl"
   ],
-  "license": "MIT",
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "pages",
+    "index.html",
+    "/js"
+  ],
   "dependencies": {
     "startbootstrap-sb-admin-2": "~1.0.7",
     "bootstrap-rtl": "~3.3.2"
