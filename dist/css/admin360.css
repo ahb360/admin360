@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'WRoya';
+  src: url('../fonts/RoyaWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WRoya';
+  src: url('../fonts/RoyaWeb-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  direction: rtl;
+  font-family: 'WRoya';
+  background-color: #443366;
+}
+.navbar-default {
+  background-color: #443366;
+}
+/*#332255*/
