@@ -1,2 +1,2 @@
-# sb-admin-2-rtl
-rtl styles for sb admin 2 bootstrap theme
+# Admin 360
+Rtl theme based on sbadmin 2
