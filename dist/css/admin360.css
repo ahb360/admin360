@@ -14,6 +14,7 @@ body {
   direction: rtl;
   font-family: 'WRoya';
   background-color: #443366;
+  font-size: 170%;
 }
 .navbar-default {
   background-color: #fff;
@@ -34,6 +35,8 @@ body {
 }
 .navbar-top-links {
   text-align: left;
+  margin-left: 0 !important;
+  margin-right: -15px !important;
 }
 .breadcrumb {
   background-color: #fff;
@@ -56,7 +59,7 @@ body {
 .sidebar li a {
   color: #9988cc;
   padding: 8px 15px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .sidebar li a:hover,
 .sidebar li a.active,
@@ -77,6 +80,7 @@ body {
 @media (min-width: 768px) {
   #page-wrapper {
     margin-right: 230px;
+    padding: 0 15px;
   }
   .sidebar {
     width: 230px;
@@ -90,5 +94,11 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
+  }
+  .navbar-default .page-title {
+    margin-right: 230px;
+  }
+  .navbar-default .navbar-header {
+    display: none;
   }
 }
