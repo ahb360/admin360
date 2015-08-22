@@ -30,7 +30,7 @@ body {
   margin: 0 15px;
   padding: 0;
   border: 0;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 50px;
 }
 .navbar-top-links {
@@ -76,6 +76,18 @@ body {
 }
 .lg-brand {
   display: none !important;
+}
+.btn-app {
+  margin: 5px 10px 20px 0;
+  text-align: center;
+  font-size: 1.1em;
+  min-width: 4em;
+  padding: 0.5em 1em;
+  float: left;
+}
+.btn-app i {
+  display: block;
+  font-size: 1.4em;
 }
 @media (min-width: 768px) {
   #page-wrapper {
