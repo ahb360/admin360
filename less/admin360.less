@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'WRoya';
+    src: url('../fonts/RoyaWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'WRoya';
+    src: url('../fonts/RoyaWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body {
+    direction: rtl;
+    font-family: 'WRoya';
+    background-color: #443366;
+    font-size: 170%;
+}
+
+.navbar-default {
+    background-color: #fff;
+    li a {
+        color: #888;
+    }
+    .page-title {
+        display: inline;
+        float: right;
+        h1 {
+            margin: 0 15px;
+            padding: 0;
+            border: 0;
+            font-size: 1.5em;
+            line-height: 50px;
+        }
+    }
+}
+.navbar-top-links {
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: -15px !important;
+}
+.breadcrumb {
+    background-color: #fff;
+    margin-bottom: 6px;
+}
+.dropdown-menu {
+    left: 0;
+    right: auto;
+}
+.navbar-header {
+    border-top: 1px solid #e7e7e7;
+}
+.sidebar {
+    background-color: #443366;
+    margin-top: 0;
+    li {
+        border-bottom: 0 !important;
+        a {
+            color: #9988cc;
+            padding: 8px 15px;
+            font-size: 1em;
+            &:hover, &.active, &:focus {
+                color: #fff;
+                background-color: #332255 !important;
+            }
+            i {
+                font-size: 0.8em !important;
+                margin-left: 23px;
+            }
+        }
+    }
+    .nav-second-level li a  {
+        padding-left: 15px;
+    }
+}
+.lg-brand {
+    display: none !important;
+}
+.btn-app {
+    margin: 5px 10px 20px 0;
+    text-align: center;
+    font-size: 1.1em;
+    min-width: 4em;
+    padding: 0.5em 1em;
+    float: left;
+    i {
+        display: block;
+        font-size: 1.4em;
+    }
+}
+@media(min-width:768px) {
+    #page-wrapper {
+        margin-right: 230px;
+        padding: 0 15px;
+    }
+    .sidebar {
+        width: 230px;
+    }
+    .lg-brand {
+        display: block !important;
+        line-height: 33px;
+        border-bottom: 0 !important;
+        a {
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+    .navbar-default {
+        .page-title {
+            margin-right: 230px;
+        }
+        .navbar-header {
+            display: none;
+        }
+    }
+}
