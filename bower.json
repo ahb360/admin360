@@ -22,7 +22,7 @@
     "/js"
   ],
   "dependencies": {
-    "startbootstrap-sb-admin-2": "~1.0.7",
+    "startbootstrap-sb-admin": "*",
     "bootstrap-rtl": "~3.3.2"
   }
 }
